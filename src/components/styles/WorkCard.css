@@ -1,0 +1,53 @@
+.project_heading {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+
+}
+
+.project_container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2.2rem;
+    padding-bottom: 4rem;
+}
+
+.project_card {
+    background: #191919;
+    padding: 1.2rem 1rem;
+}
+
+.project_card img {
+    width: 100%;
+}
+
+.project_title {
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 1.3rem;
+}
+
+.pro_details p {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.pro_btn{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+}
+
+.pro_btn .btn{
+    padding: 0.5rem 1rem;
+}
+
+@media only screen and (max-width: 740px) {
+    .project_container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
